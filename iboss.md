@@ -1,4 +1,3 @@
-<HTML>
+# iboss
 This was a gimme challenge to promote the sponsor of the week for this CTF. The screenshot below should say all that needs said.
-<img src="iboss.png">
-</HTML>
+!picture (iboss.png)
