@@ -8,17 +8,13 @@ The first tool that came to mind was netcat, so I used that to connect to the IP
 
 ![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames2.png?raw=true)
 
-After using the dictionary to decode the message shown (I did this manually although I'm sure it could be scripted as well), I was left with a string of base 16 numbers.
+After using the dictionary to decode the message shown (I did this manually although I'm sure it could be scripted as well), I was left with a string of base 16 numbers. When translated into ASCII, this encoded text yielded the message "Send back S to get next character".
 
 ![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames3.png?raw=true)
 
-When translated into ASCII, this encoded text yielded the message "Send back S to get next character".
-
-![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames4.png?raw=true)
-
 After entering "S" and hitting enter when connected via netcat, I was presented with the same message. I thought I must have done something wrong and just hit enter again. This time, however, an error message was displayed. This got me thinking I was on the right track after all.
 
-![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames5.png?raw=true)
+![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames4.png?raw=true)![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames5.png?raw=true)
 
 This time, after entering "S" the first round, I entered "S" again. This time, the message was the exact same again... except for one character: the "S" I was asked to return was replaced with an "I". I was on to something!!
 
