@@ -14,16 +14,16 @@ After using the dictionary to decode the message shown (I did this manually alth
 
 When translated into ASCII, this encoded text yielded the message "Send back S to get next character".
 
-![picture]()
+![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames4.png?raw=true)
 
 After entering "S" and hitting enter when connected via netcat, I was presented with the same message. I thought I must have done something wrong and just hit enter again. This time, however, an error message was displayed. This got me thinking I was on the right track after all.
 
-![picture]()
+![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames5.png?raw=true)
 
 This time, after entering "S" the first round, I entered "S" again. This time, the message was the exact same again... except for one character: the "S" I was asked to return was replaced with an "I". I was on to something!!
 
-![picture]()
+![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames6.png?raw=true)
 
 About two dozen rounds of this later and I had compiled a flag and was awarded with a congratulatory message.
 
-![picture]()
+![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames7.png?raw=true)
