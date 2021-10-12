@@ -10,7 +10,7 @@ The first tool that came to mind was netcat, so I used that to connect to the IP
 
 After using the dictionary to decode the message shown (I did this manually although I'm sure it could be scripted as well), I was left with a string of base 16 numbers.
 
-![picture]()
+![picture](https://github.com/FredMFNRogers/SetSolutionsSpaceForceCTF/blob/main/ScienceGames3.png?raw=true)
 
 When translated into ASCII, this encoded text yielded the message "Send back S to get next character".
 
